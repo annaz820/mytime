@@ -16,10 +16,6 @@ nav {
   padding-right: 60px;  flex-wrap: wrap;
 }
 
-div {
-
-}
-
 p {
   font-family: Georgia;
   font-size: 17px;
@@ -54,7 +50,6 @@ h4 {
 
 .main {
   display: flex;
-  flex-grow: 0;
   flex-direction: row;
   max-width: 1300px;
   margin: 50px auto;
@@ -93,21 +88,13 @@ h4 {
 }
 
 .left {
-
   margin-right: 20px;
 }
 
 .right {
-
-}
-
-.main {
-  border: 2px solid black;
-  display: flex;
 }
 
 .monument {
-
 }
 
 .orca {
