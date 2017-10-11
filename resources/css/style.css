@@ -13,7 +13,8 @@ nav {
   margin-left: auto;
   flex-basis: 350px;
   position: relative;
-  padding-right: 60px;  flex-wrap: wrap;
+  padding-right: 60px;
+  flex-wrap: wrap;
 }
 
 p {
@@ -26,6 +27,15 @@ h4 {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
+}
+
+h6 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  width: 180px;
 }
 
 .link {
@@ -110,6 +120,27 @@ h4 {
   flex-direction: column;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  height: 250px;
+  flex-direction: column;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.line1 {
+  display: flex;
+  max-width: 400px;
+}
+
+.last {
+
+}
+
 #head {
   color: MediumAquamarine;
   padding-left: 10px;
@@ -156,4 +187,14 @@ h4 {
   text-align: center;
   padding: 80px 20px;
   max-width: 260px;
+}
+
+#botnav {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 0px;
+  max-width: 250px;
+  padding-left: 40px;
+  padding-right: 0px;
+  align-items: center;
 }
